@@ -1,1 +1,183 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    color: #030104;
+}
+
+#header{
+  display: flex;
+}
+
+.header-title{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+}
+
+.title h1{
+  color: #221122;
+}
+
+.name, .title{
+  padding: 20px;
+  margin: 20px;
+  color: #00C7C7;
+}
+
+
+nav header {
+    justify-content: space-evenly;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+}
+
+#nav-bar{
+    position: fixed;
+    right: 45px;
+    font-size: 1.5em;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  background-color: #00C7C7;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #030104;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover {
+  background-color: #00C7C7;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 16px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+main{
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+#welcome-section{
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#welcome-section h1{
+  padding-bottom: 20px;
+}
+
+.github{
+  display: inline-flex;
+  place-items: center;
+  padding-bottom: 25px;
+}
+
+#projects h2{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.project-tiles{
+    display: block;
+    place-items: center;
+    padding: 40px;
+}
+
+.project-tile{
+    display: flex;
+    place-items: left;
+    padding-bottom: 30px;
+}
+
+hr{
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+.project-desciption{
+  display: block;
+  width: 40vw;
+}
+
+#Project-Image{
+  width: 10vw;
+  height: 400px;
+}
+
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00C7C7;
+  color: #030104;
+}
+
+#form{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+
+#contact h2{
+  padding-top: 10px;
+}
+
+label{
+  padding-right: 10px;
+}
+
+.contact2{
+  padding-top: 10px
+}
+
+
 

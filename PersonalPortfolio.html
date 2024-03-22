@@ -1,1 +1,127 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <section class="header-title">
+        <div class="name">
+          <h2>Bryce Ellard</h2>
+        </div>
+        <div class="title">
+          <h1>Personal Portfolio</h1>
+        </div>
+      </section>
+      <nav id="nav-bar">
+          <div class="navbar">
+              <div class="dropdown">
+              <button class="dropbtn">Menu
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a class="nav-link" href="#welcome-section">Welcome Section</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+      <section id="welcome-section">
+        <h1>Welcome to My Personal Portfolio!</h1>
+        <div class="Github">
+          <h2>My Github profile can be found here:</h2>
+          <a href="https://github.com/breakfastlife" >
+              <img class="github-icon"
+                  src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                  alt="Gihhub Logo"
+                      loading="lazy"
+                      class="image-2"
+                      width="60"
+                      height="45">
+            </a>
+        </div>
+      </section>
+      <section id="projects">
+          <h2>Current and Past Projects:</h2>
+          <aside class="project-tiles">
+              <div class="project-tile" id="project1">
+                <div class="project-desciption">
+                  <h3 class="project-header">Baking Technical Document</h3>
+                  <p>
+                      This document was desinged for a <a href="https://www.freecodecamp.org/learn">freecodecamp.org</a> project. 
+                      The purpose was to make a technical document about a techinical topic. I chose baking since I love baking.
+                      This project contains different recipes ranging from easy to hard, starting with simple Peanut Butter Cookies.
+                      The Github project Repository is located <a href="https://github.com/breakfastlife/BakingTechDoc">here</a>.
+                  </p>
+                </div>
+                  <img 
+                      class="Project-Img" 
+                      src="https://github.com/breakfastlife/BakingTechDoc/blob/main/BakingTech-ScreenShot.png?raw=true"
+                      alt="Screenshot of Baking Project"
+                      loading="lazy"
+                      class="image-1"
+                      width="750"
+                      height="500"
+                  />
+              </div>
+              <hr></hr>
+              <div class="project-tile" id="project2">
+                  <div class="project-desciption">
+                    <h3>Product Page</h3>
+                    <p>
+                        Another Freecodecamp.org project. The purpose was to make
+                        a product page with clickable links. Also, the page was 
+                        made to change the display settings dependant on the display
+                        of the viewing screen. 
+                    </p>
+                  </div>
+                  <img class="Project-Img"
+                  src="https://github.com/breakfastlife/ProductPage/blob/main/ProductPage-screenshot.png?raw=true"
+                  alt="Screenshot of Product Page"
+                      loading="lazy"
+                      class="image-2"
+                      width="750"
+                      height="500"
+                  />
+              </div>
+          </aside>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <section id="grid" class="footer">
+        <div id="contact">
+          <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <h2>Contact Me</h2>
+              <div class="contact contact1">
+                <label for="linkedin">Social: </label>
+                <div>
+                  <a  href="https://www.linkedin.com/in/bryce-ellard-09873217b/">
+                    <img id="linkedin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/72px-LinkedIn_icon.svg.png"
+                          alt="linkedin-logo"
+                          loading="lazy"
+                          class="image-2"
+                          width="45"
+                          height="45"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="contact contact2">
+                  <label for="email">Send me an email: </label>
+                  <div>
+                  <input type="email" id="email" name="email" placeholder="Enter your email here..."/>
+                  <input type="submit" id="submit" value="Submit"/>
+              <div>
+              </div>
+          </form>
+        </div>
+      </section>
+  </footer>
+</html>
